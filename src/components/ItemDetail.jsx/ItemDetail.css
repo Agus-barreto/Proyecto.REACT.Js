@@ -1,0 +1,42 @@
+.detalles{
+    height: 400px;
+    width: 400px;
+    border-collapse: separate;
+    
+    border-radius: 3rem ;
+    background-color: #ECEAE4;
+    
+    margin-left: 8vh;
+    
+    
+}
+.productos{
+    color: #150d10;
+    align-items: center;
+    padding-left: 30px;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+        
+
+.titulo{
+    color: #150d10;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.btn {
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border: none;
+    align-items: center;
+    padding: 10px;
+    background-color: #97C1A9;
+}

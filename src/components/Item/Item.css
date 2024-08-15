@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cart-productos{
+    height: 400px;
+    width: 400px;
+    border-collapse: separate;
+    padding: 10px 15px 10px 20px;
+    border-radius: 3rem ;
+    background-color: #ECEAE4;
+    margin: 0;
+    margin-left: 8vh;
+    
+}
+.Item-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    color: #1c1a1a;
+    padding: 8px; 
+   
+    padding: 5px;
+    padding-top: 50px;
+    
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+        
+
+.titulo{
+    color: #150d10;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.btn {
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border: none;
+    align-items: center;
+    padding: 10px;
+    background-color: #97C1A9;
+}

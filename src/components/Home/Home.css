@@ -1,0 +1,99 @@
+.Carrucel-img{
+    padding: 0 0 25px 0;
+    text-align: center;
+    border: 5px solid black;
+    height: 150px;
+    width: 200px;
+}
+.Carrucel-img{
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.product-content-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.barra-parrafo{
+    background-color: white;
+    color: black;
+    font-family: "Teachers", sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0 10px;
+    padding: 20px;
+}
+
+.footer{
+    margin-top: auto;
+    box-shadow: 0 -3px 5px rgb(0, 0, 0, 0.104);
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    }
+
+.redes{
+    padding: 20px;
+    padding-top: 20px;
+    color: black;
+}
+
+.Parrafo-1{
+    background-color: white;
+    color: black;
+    font-family: "Teachers", sans-serif;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0 10px;
+}
+.flex-text .pt-1{
+    text-align: center;
+    align-items: center;
+
+}
+#about .flex {
+    display:grid;
+	margin-bottom: -7px;
+}
+
+#about .flex-text {
+	flex: 2;
+}
+
+#about .flex-image {
+	flex: 1;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col{
+    background-color: white;
+    text-align: center;
+}
+
+.Parrafo{
+    background-color: white;
+    color:black;
+    font-family: "Teachers", sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: 45vh;
+}
+
+.footer{
+        margin-top: auto;
+        box-shadow: 0 -3px 5px rgb(0, 0, 0, 0.104);
+        text-align: center;
+        padding: 30px;
+        background-color: #9f9fa8;
+}
