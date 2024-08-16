@@ -14,7 +14,7 @@ const Item = ({imagen, nombre, descripcion, precio, id}) => {
         <p>${precio}</p>
         <button onClick={() => agregarAlCarrito(id)} className="btn"  >Agregar al Carrito</button>
         <Link to={`/detalle/${id}`}>
-        {window.location.pathname.split('/')[0] != "detalle" && <button className="btn">Ver detalles</button>}
+        <button className="btn">Ver detalles</button>
         </Link>
         </div>
         )

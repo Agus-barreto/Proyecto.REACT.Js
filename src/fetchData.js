@@ -5,7 +5,7 @@ const productos = [
         precio: 8000,
         descripcion: "Mesa ratona en madera mazisa en su color natural y base en hierro.",
         imagen:"/src/assets/img-mesaaa.jpeg",
-        categoria: "Mesas",
+        categoria: "stock",
         stock: 4
     },
 
@@ -15,7 +15,7 @@ const productos = [
         precio: 8500,
         descripcion: "Mesas ratonas nido, en su forma natural e ireegular.",
         imagen:"/src/assets/imgmratonaBoni.jpg",
-        categoria: "Mesas",
+        categoria: "stock",
         stock: 2
     },
 
@@ -25,7 +25,7 @@ const productos = [
         precio: 9500,
         descripcion:"Mesa rectangular simple, en su color nastural. Base en hierro.",
         imagen:"/src/assets/img-mesaaratona.jpg",
-        categoria: "Mesas",
+        categoria: "sin stock",
         stock: 4
     },
 
@@ -35,7 +35,7 @@ const productos = [
         precio: 10500,
         descripcion:"Recibidor todo en madera (cipres), color natural o en color crudo.",
         imagen:"/src/assets/img-recibidor.jpg",
-        categoria: "Muebles",
+        categoria: "sin stock",
         stock: 4
     },
 
@@ -45,7 +45,7 @@ const productos = [
         precio: 7000,
         descripcion:"Recibidor super sensillo que le va a dar un toque muy canchero a tu hogar.",
         imagen:"/src/assets/img-recibidor-s.jpg",
-        categoria: "Muebles",
+        categoria: "stock",
         stock: 4
 
     },
@@ -56,7 +56,7 @@ const productos = [
         precio: 5590,
         descripcion:"Recibidor sensillo con dos niveles",
         imagen:"/src/assets/img-recibidor-23.jpg",
-        categoria: "Muebles",
+        categoria: "stock",
         stock: 4
     },
 
@@ -66,7 +66,7 @@ const productos = [
         precio: 17500,
         descripcion:"Mueble grande , multiuso",
         imagen:"/src/assets/img-muebleBig.jpg",
-        categoria: "Muebles",
+        categoria: "sin stock",
         stock: 4
     },
 
@@ -76,7 +76,7 @@ const productos = [
         precio: 9500,
         descripcion:"Rack en madera finsher, y puertas enmalla metalica.",
         imagen: "/src/assets/img-rack.jpg",
-        categoria: "Muebles",
+        categoria: "stock",
         stock: 4
         
     },
@@ -87,7 +87,7 @@ const productos = [
         precio: 22500,
         descripcion:"Mesa más bancos ideales tanto para interior como tambien para exteriores.",
         imagen:"/src/assets/img-bancos.jpeg",
-        categoria: "Muebles",
+        categoria: "stock",
         stock: 4
     },
 ];
