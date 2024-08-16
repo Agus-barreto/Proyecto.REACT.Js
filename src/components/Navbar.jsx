@@ -1,9 +1,11 @@
 import React from 'react';
 import CartWidget from "./CartWidget/CartWidget";
 import { Link } from 'react-router-dom';
+import { useAppContext } from './Context/CartContext';
 
 
 const Navbar = () => {
+
     return(
         
 		<header id="mainheader">
@@ -34,7 +36,11 @@ const Navbar = () => {
                     </Link>
                     </li>
 
-                    <li><CartWidget /></li>
+                    <li>
+                        <Link>
+                        <CartWidget />
+                        </Link>
+                    </li>
                 </ul>
 			</div>
 		</nav>

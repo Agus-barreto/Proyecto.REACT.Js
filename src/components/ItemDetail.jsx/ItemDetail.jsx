@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Item from "../Item/Item";
 import "./ItemDetail.css"
+import { useAppContext } from "../Context/CartContext";
 
-const ItemDetail = ({productos}) => {
+const ItemDetail = () => {
 const {id} = useParams();
     
+const {productos} = useAppContext();
+
 const[productoSeleccionado, setProductoSeleccionado]= useState({})
 useEffect(() => {
     const findProduct = productos.find(element => element.id ===  parseInt(id));
