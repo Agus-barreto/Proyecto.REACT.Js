@@ -1,0 +1,18 @@
+.filtro-btn{
+        display: inline-block;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        border: none;
+        align-items: center;
+        padding: 10px;
+        background-color: #C6DBDA;
+        color: black;
+    }
+
+.button{
+    padding-left: 80vh;
+    margin-top: 80px;
+}

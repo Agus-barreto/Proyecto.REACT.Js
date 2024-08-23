@@ -7,8 +7,8 @@
 }
 
 .cart-productos{
-    height: 400px;
-    width: 400px;
+    height: 430px;
+    width: 410px;
     border-collapse: separate;
     padding: 10px 15px 10px 20px;
     border-radius: 3rem ;
@@ -24,7 +24,6 @@
     text-align: center;
     color: #1c1a1a;
     padding: 8px; 
-   
     padding: 5px;
     padding-top: 50px;
     

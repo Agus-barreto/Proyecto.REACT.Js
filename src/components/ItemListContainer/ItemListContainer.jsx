@@ -1,17 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import Loader from "../Loader/Loader";
 import { useAppContext,  } from "../Context/CartContext";
+import "./ItemListContainer.css"
+
+
+/*import { useParams } from "react-router-dom";*/
 
 const ItemListContainer = () =>{
 
-    const {cargarData, productos, agregarAlCarrito} = useAppContext();
-    
+    const { cargarData, productos } = useAppContext();
 
-    useEffect(()=> {
+    useEffect(() => {
         cargarData();
     });
-
+    
+    /*const dataContext = useAppContext();
+    console.log(dataContext)*/
 
 
     return (
@@ -22,13 +27,9 @@ const ItemListContainer = () =>{
                     :
                     <div>
     <div>
-    <form>
-  <input type="radio" id="html" name="fav_language" value="HTML"/>
-  <label for="html">HTML</label><br/>
-  <input type="radio" id="css" name="fav_language" value="CSS"/>
-  <label for="css">CSS</label><br/>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
-  <label for="javascript">JavaScript</label>
+<form className="button">
+    <button className="filtro-btn"  >Productos en Stock</button>
+    <button className="filtro-btn" >Productos sin Stock</button>
 </form>
 </div>
 

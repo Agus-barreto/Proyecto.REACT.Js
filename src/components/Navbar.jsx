@@ -1,7 +1,8 @@
 import React from 'react';
 import CartWidget from "./CartWidget/CartWidget";
 import { Link } from 'react-router-dom';
-import { useAppContext } from './Context/CartContext';
+
+
 
 
 const Navbar = () => {
@@ -24,9 +25,11 @@ const Navbar = () => {
                     </li>
                     
 
-                    <li>
+                    <li className='boton-multi'>
                     <Link to="/productos">
+                    
                         Productos
+                    
                     </Link>
                     </li>
 
@@ -48,5 +51,5 @@ const Navbar = () => {
 
 		)
 	}	
-
-export default Navbar;
+ 
+export default Navbar

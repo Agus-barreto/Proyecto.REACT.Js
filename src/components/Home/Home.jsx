@@ -4,26 +4,25 @@ import "./Home.css"
 const Home = () => {
     return(
         <>
-        <div>
-            <p className="barra-parrafo">No es caro es hecho a mano.</p>
-        </div>
-        {/*<main className="productos container" id="lista-2">
+        <main className="productos container" id="lista-2">
             <div className="product-content-2">
-                <div className="Carrucel-img">
-                    <img src="src/assets/img-1.jpeg" alt="" />
+            
+                <div className="product">
+                    <img src="src/assets/img-estanteria.jpeg" alt="" />
                 </div>
-                <div className="Carrucel-img">
-                    <img src="src/assets/img-2.jpeg" alt="" />
+                <div className="product">
+                    <img src="src/assets/img-planta.jpeg" alt="" />
                 </div>
-                <div className="Carrucel-img">
-                    <img src="src/assets/img-3.jpg" alt="" />
+                <div className="product">
+                    <img src="src/assets/img-banco.jpeg" alt="" />
                 </div>
-                <div className="Carrucel-img">
-                    <img src="src/assets/img-4.jpeg" alt="" />
+                <div className="product">
+                    <img src="src/assets/img-mesa.jpeg" alt="" />
                 </div>
             </div>
         
-        </main>*/}
+        </main>
+    
 
         <div className="container text-center">
         <div className="row">
@@ -35,9 +34,7 @@ const Home = () => {
                             ¡Que discrutes el recorrido por nuestra tienda!
                             </p>
             </div>
-            <div className="col-img">
-            <img src="src/assets/img-soldador.jpeg" alt="" />
-        </div>
+        
         </div>
     </div>
 
@@ -57,12 +54,12 @@ const Home = () => {
     <p className="Parrafo-2"> DECO | HOGAR | ESTILO | EXCLUSIBIDAD</p>
     <p>ⒸAgus - MUEBLES-INDUSTRIALES-2024 </p>
 
-    </div>
-    
-    
-    </footer>
+</div>
+
+
+</footer>
 </section>
-    </>
-    )
+</>
+)
 }
 export default Home;

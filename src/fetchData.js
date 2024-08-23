@@ -3,7 +3,7 @@ const productos = [
         id: 1,
         nombre: "Mesa ratona aurora",
         precio: 8000,
-        descripcion: "Mesa ratona en madera mazisa en su color natural y base en hierro.",
+        descripcion: "Mesa ratona en madera mazisa",
         imagen:"/src/assets/img-mesaaa.jpeg",
         categoria: "stock",
         stock: 4
@@ -13,7 +13,7 @@ const productos = [
         id: 2,
         nombre: "Mesa ratona Boni",
         precio: 8500,
-        descripcion: "Mesas ratonas nido, en su forma natural e ireegular.",
+        descripcion: "Mesas ratona rectangular con detalles en hierro.",
         imagen:"/src/assets/imgmratonaBoni.jpg",
         categoria: "stock",
         stock: 2
@@ -26,7 +26,7 @@ const productos = [
         descripcion:"Mesa rectangular simple, en su color nastural. Base en hierro.",
         imagen:"/src/assets/img-mesaaratona.jpg",
         categoria: "sin stock",
-        stock: 4
+        
     },
 
     {
@@ -36,14 +36,14 @@ const productos = [
         descripcion:"Recibidor todo en madera (cipres), color natural o en color crudo.",
         imagen:"/src/assets/img-recibidor.jpg",
         categoria: "sin stock",
-        stock: 4
+        
     },
 
     {
         id: 5,
         nombre: "Recibidor Simple",
         precio: 7000,
-        descripcion:"Recibidor super sensillo que le va a dar un toque muy canchero a tu hogar.",
+        descripcion:"Recibidor SimpleRecibidor super sensillo que le va a dar un toque muy canchero a tu hogar.",
         imagen:"/src/assets/img-recibidor-s.jpg",
         categoria: "stock",
         stock: 4
@@ -67,24 +67,22 @@ const productos = [
         descripcion:"Mueble grande , multiuso",
         imagen:"/src/assets/img-muebleBig.jpg",
         categoria: "sin stock",
-        stock: 4
     },
 
     {
         id: 8,
         nombre: "Rack",
         precio: 9500,
-        descripcion:"Rack en madera finsher, y puertas enmalla metalica.",
+        descripcion:"Rack en madera finsher, y puertas en malla metalica.",
         imagen: "/src/assets/img-rack.jpg",
         categoria: "stock",
         stock: 4
-        
     },
 
     {
         id: 9,
         nombre: "Mesa + bancos",
-        precio: 22500,
+        precio: 20500,
         descripcion:"Mesa más bancos ideales tanto para interior como tambien para exteriores.",
         imagen:"/src/assets/img-bancos.jpeg",
         categoria: "stock",

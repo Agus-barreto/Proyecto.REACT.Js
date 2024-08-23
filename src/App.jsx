@@ -8,7 +8,7 @@ import Home from './components/Home/Home';
 import ItemDetail from './components/ItemDetail.jsx/ItemDetail';
 import NotFound from './components/404/NotFund';
 import { ContextProvider } from './components/Context/CartContext';
-/*import Contacto from './components/Contacto/Contacto';*/
+import Carrito from './components/Carrito';
 
 
 function App() {
@@ -31,8 +31,8 @@ useEffect(()=> {
     <Routes>
       <Route path='/Home' element={<Home/>} />
       <Route path="/productos" element={<ItemListContainer />}/>
-      {/*
-      <Route path="/detalle/:id" element={<ItemDetail />} />*/}
+      <Route path="/detalle/:id" element={<ItemDetail/>} />
+      <Route path="/carrito" element={<Carrito />}/>
       <Route path="*" element={<NotFound />} />
     </Routes>
     </BrowserRouter>
